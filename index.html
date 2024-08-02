@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url("https://cdn.hswstatic.com/gif/gettyimages-139494347.jpg");
+            background-size: cover;
+        }
+        .solar{
+            height: 100vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;    
+        }
+        .sun{
+            height: 100px;
+            width: 100px;
+            background-color: gold;
+            border-radius: 60%;
+            border: 1px solid orange;
+            box-shadow: 0px 0px 20px gold ;
+        }
+        .circle{
+            border: 2px soild white;
+            height: 500px;
+            width: 500px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            position: relative;
+            animation: rotateplanets 10s linear 0s infinite normal;
+        }
+        @keyframes rotateplantes {
+            form{
+
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+        .mercury{
+            border: 1px solid white;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            position: absolute;
+            top: 375px;
+            background-color: brown;
+            border: gold;
+        }
+        .circle2{
+            border: 2px solid white;
+            height: 300px;
+            width: 300px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 50%;
+            position: relative;
+            animation: orbit 10s linear 0s infinite normal;
+            
+        }
+        @keyframes orbit {
+            form{
+
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+        .venus{
+            border: 2px solid white;
+            height: 55px;
+            width: 55px;
+            border-radius: 50%;
+            position: absolute;
+            left: 335px;
+            background-image: linear-gradient(brown,gold);
+        }
+        .circle3{
+            border: 2px solid white;
+            height: 400px;
+            width: 400px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 50%;
+            position: relative;
+            animation: ven 10s linear 0s infinite normal;
+        }
+        @keyframes ven{
+            from{
+
+            }
+            to{
+                transform: rotate(360deg);
+            }
+
+        }
+        .earth{
+            border: 2px solid white;
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            position: absolute;
+            right: 385px;
+            background-image: linear-gradient(green,blue);   
+        }
+        .circle4{
+            border: 2px solid white;
+            height: 500px;
+            width: 500px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 50%;
+            position: relative;
+            animation: earth 10s linear 0s infinite normal;
+        }
+        @keyframes earth{
+            from{
+
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+        .mars{
+            border: 2px solid white;
+            height: 65px;
+            width: 65px;
+            border-radius: 50%;
+            position: absolute;
+            top: 550px;
+            background-image: linear-gradient(brown,white);
+        }
+        .circle5{
+            border: 2px solid white;
+            height: 600px;
+            width: 600px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 50%;
+            position: relative;
+            animation: mar 10s linear 0s infinite normal;
+        }
+        @keyframes mar{
+            from{
+
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+        .jupiter{
+            border: 2px solid white;
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            position: absolute;
+            bottom: 620px;
+            background-image: linear-gradient(black,gold);
+        }
+        .circle5{
+            border: 2px solid white;
+            height: 650px;
+            width: 650px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 50%;
+            position: relative;
+            animation: jup 10s linear 0s infinite normal;
+        }
+        @keyframes jup{
+            from{
+
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+        
+        
+    </style>
+</head>
+    
+<body>
+    <div class="solar">
+       <div class="circle6">
+        <div class="circle5">
+            <div class="circle4">
+                <div class="circle3">
+                    <div class="circle2">
+                        <div class="circle">
+                            <div class="jupiter"></div>
+                            <div class="mars"></div>
+                            <div class="earth"></div>
+                            <div class="venus"></div>
+                            <div class="mercury"></div>
+                            <div class="sun"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+        
+    </div>
+    
+    
+</body>
+</html>
